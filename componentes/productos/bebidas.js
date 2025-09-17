@@ -1,11 +1,11 @@
-export function alimentosBasicos() {
+export function bebidas() {
     let section = document.createElement("div");
 
     let lista = [
-        { nombre: "Arroz", precio: 10 },
-        { nombre: "Frijoles", precio: 8 },
-        { nombre: "Aceite", precio: 15 },
-        { nombre: "Harina", precio: 12 }
+        { nombre: "Coca Cola", precio: 5 },
+        { nombre: "Pepsi", precio: 4 },
+        { nombre: "Fanta", precio: 3 },
+        { nombre: "Agua", precio: 2 }
     ];
 
     lista.forEach(p => {
